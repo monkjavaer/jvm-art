@@ -7,7 +7,7 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * 借助CGLIB使方法区出现OOM
+ * 借助CGLIB使方法区出现OutOfMemoryError
  *
  * VM Args: -XX:PermSize=10M -XX:MaxPermSize=10M
  * -XX:PermSize  -XX:MaxPermSize限制方法区大小，从而间接限制常量池容量。
@@ -34,5 +34,8 @@ public class JavaMethodAreaOOM {
             enhancer.create();
         }
     }
+
+    //OutOfMemoryError:PermGen space
+    //经常动态生成大量Class的应用中应注意
 
 }
