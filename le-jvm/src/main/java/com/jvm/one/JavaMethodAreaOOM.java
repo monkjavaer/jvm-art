@@ -36,6 +36,6 @@ public class JavaMethodAreaOOM {
     }
 
     //OutOfMemoryError:PermGen space
-    //经常动态生成大量Class的应用中应注意
+    //经常动态生成大量Class的应用中应注意(jsp/OSGi)
 
 }
