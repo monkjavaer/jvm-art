@@ -6,7 +6,7 @@ package com.jvm.one;
  * -Xss 栈容量
  * 如果线程请求的栈深度大于虚拟机允许的最大深度，StackOverflowError
  * 如果虚拟机在拓展栈时无法申请到足够的内存空间，OutOfMemoryError
- * @author tangquanbin
+ * @author monkjavaer
  * @date 2018/09/04 22:45
  */
 public class JavaVMStackOOM {

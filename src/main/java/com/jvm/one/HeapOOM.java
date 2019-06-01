@@ -11,7 +11,7 @@ import java.util.List;
  * vm Args:    -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
  * 将堆的最小值-Xms和最大值-Xmx设置一样就可以避免堆自动扩展。
  * -XX:+HeapDumpOnOutOfMemoryError出现OOM时可Dump出当前的内存堆转储快照以便分析。
- * @author tangquanbin
+ * @author monkjavaer
  * @date 2018/09/04 21:38
  */
 public class HeapOOM {

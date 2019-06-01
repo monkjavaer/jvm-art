@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
  * VM Args: -XX:PermSize=10M -XX:MaxPermSize=10M
  * -XX:PermSize  -XX:MaxPermSize限制方法区大小，从而间接限制常量池容量。
  * 因为运行时常量池是方法区的一部分。
- * @author tangquanbin
+ * @author monkjavaer
  * @date 2018/09/04 23:16
  */
 public class JavaMethodAreaOOM {
