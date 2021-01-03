@@ -1,4 +1,4 @@
-package com.jvm.one;
+package com.jvm.oom;
 
 /**
  * 创建线程导致内存溢出
